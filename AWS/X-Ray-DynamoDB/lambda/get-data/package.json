@@ -1,0 +1,25 @@
+{
+  "name": "get-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parcel": "parcel",
+    "build": "parcel build -d dist -t node --bundle-node-modules --no-minify --no-source-maps --no-content-hash index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "typestyle": "^2.0.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.59",
+    "aws-lambda": "^1.0.6",
+    "aws-sdk": "^2.639.0",
+    "parcel-bundler": "^1.12.4",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}

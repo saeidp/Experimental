@@ -1,0 +1,35 @@
+{
+  "name": "df.authz.metrics.performance",
+  "version": "0.1.0",
+  "bin": {
+    "df.authz.metrics.performance": "bin/df.authz.metrics.performance.js"
+  },
+  "author": {
+    "name": "Fugro",
+    "url": "http://fugro.com"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/aws-events": "^1.18.0",
+    "@aws-cdk/aws-events-targets": "^1.18.0",
+    "@aws-cdk/aws-iam": "^1.18.0",
+    "@aws-cdk/aws-lambda": "^1.18.0",
+    "@aws-cdk/aws-s3": "^1.18.0",
+    "@aws-cdk/aws-ses": "^1.18.0",
+    "@aws-cdk/aws-sns": "^1.18.0",
+    "@aws-cdk/aws-sns-subscriptions": "^1.18.0",
+    "@aws-cdk/core": "^1.15.0",
+    "aws-cdk": "^1.15.0",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.6.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-dynamodb": "^1.18.0",
+    "@types/node": "^12.12.17",
+    "parcel": "^1.12.4"
+  }
+}

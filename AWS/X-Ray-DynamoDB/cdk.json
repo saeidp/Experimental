@@ -1,0 +1,3 @@
+{
+  "app": "npx node bin/df.authz.metrics.performance.js"
+}
