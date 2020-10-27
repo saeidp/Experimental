@@ -1,0 +1,13 @@
+type Product @model {
+  id: ID!
+  dynamicSlug: String!
+  productName: String!
+}
+
+type Person @model {
+  id: ID!
+  dynamicSlug: String!
+  fullName: String!
+  title: String!
+  description: String!
+}
