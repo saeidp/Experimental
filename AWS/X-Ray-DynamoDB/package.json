@@ -30,6 +30,6 @@
   "dependencies": {
     "@aws-cdk/aws-dynamodb": "^1.18.0",
     "@types/node": "^12.12.17",
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.2"
   }
 }
